@@ -1,0 +1,31 @@
+body{
+    height: 1500px;
+    display: block;
+    text-align: center;
+}
+.section{
+    display: flex;
+    margin-top: 100px;
+}
+.left{
+    flex: 6;
+}
+.right{
+    flex: 4;
+}
+.right > img{
+    max-width: 100%;
+}
+
+.box{
+    max-height: 300px;
+    max-width: 300px;
+    float: left;
+    overflow: scroll;
+    display: block;
+}
+
+.rect{
+    height: 200px;
+    width: 200px;
+}
