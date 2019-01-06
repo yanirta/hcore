@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive webpage - hcoretesting.com</title>
+    <link rel="stylesheet" href="responsive_page.css">
+</head>
+<body>
+<div class="info_text">
+    This page is part of the blog <a href="https://hcoretesting.com">hcore-testing</a> <br>
+    Now let's see some lorems: <br>
+</div>
+<img class="devices" src="devices.png"/>
+<div>
+    This page is optimized for:<br>
+    <picture class="responsive">
+        <source srcset="mobile-illustration.png" media="(max-width: 480px)">
+        <source srcset="tablet-illustration.png" media="(max-width: 801px)">
+        <img src="desktop-illustration.png">
+    </picture>
+</div>
+</body>
+</html>
