@@ -11,6 +11,8 @@ function updatedata(){
     document.getElementsByClassName("show_height")[0].textContent = window.innerHeight;
     document.getElementsByClassName("screen_width")[0].textContent = "screen width: " + screen.width;
     document.getElementsByClassName("screen_height")[0].textContent = "screen height: " + screen.height;
+    document.getElementsByClassName("available_width")[0].textContent = "available width: " + screen.availWidth;
+    document.getElementsByClassName("available_height")[0].textContent = "available height: " + screen.availHeight;
     document.getElementsByClassName("browser_width")[0].textContent = "browser width: " + window.outerWidth;
     document.getElementsByClassName("browser_height")[0].textContent = "browser height: " + window.outerHeight;
     document.getElementsByClassName("viewport_width")[0].textContent = "viewport width: " + window.innerWidth;

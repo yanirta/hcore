@@ -66,7 +66,7 @@ body {
     text-align: right;
  }
 
-.browser_model, .viewport_model, .more_details{
+.browser_model, .viewport_model, .more_details, .screen_avail_model{
     width: 98%;
     height: 85%;
     margin: auto;
@@ -74,29 +74,34 @@ body {
 }
 
 .screen_model{
-    background: #db3b3b;
+    background:#90AFC5;
     width: 100%;
-    min-height: 200px;
+    min-height: 250px;
     clear: both;
     display: flex;
-    color: #cecece;
+    color: #336B87;
 }
 
+.screen_avail_model{
+    background: #336B87;
+    color: #96b5ba;
+}
 .browser_model{
-    background: #42bff4;
-    color: #636161;
+    background: #2A3132;
+    color: #c4593e;
 }
 
 .viewport_model{
-    background: #6287bc;
-    color: #cecece;
+    background: #763626;
+    color: #f78b6a;
 }
 
 .more_details{
-    background: white;
-    color: #233654;
+    background: #BA5536;
+    color: white;
     text-align: left;
-    display: block;
+    display: inline-block;
+    vertical-align:middle;
 }
 
 .footer {

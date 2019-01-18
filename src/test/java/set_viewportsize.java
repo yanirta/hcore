@@ -20,6 +20,8 @@ public class set_viewportsize {
         if (maxVSW < vs_width || maxVSH < vs_height)
             throw new RuntimeException(
                     String.format("Desired dimensions are not supported, maximum allowed, w:%s h:%s \n", maxVSW, maxVSH));
+        //Dummy resizing for FF that starts maximized on Windows
+        driver.manage().window().setSize(new Dimension(0, 0));
         //Calculation
         Long desiredBrowserWidth =
                 (Long) driver.executeScript("return arguments[0] + window.outerWidth - window.innerWidth;",
