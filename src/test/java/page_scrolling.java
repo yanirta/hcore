@@ -7,7 +7,7 @@ public class page_scrolling {
     @Test
     public void test() throws InterruptedException {
         ChromeDriver driver = new ChromeDriver();
-        driver.navigate().to("https://yanirta.github.io/hcore/scrollable_elements.html");
+        driver.navigate().to("https://yanirta.github.io/qualitalks/scrollable_elements.html");
         WebElement element = driver.findElement(By.cssSelector(".right .box"));
         scrollThroughPage(driver);
     }

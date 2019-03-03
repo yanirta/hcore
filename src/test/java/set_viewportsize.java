@@ -7,7 +7,7 @@ public class set_viewportsize {
     @Test
     public void test() {
         RemoteWebDriver driver = new ChromeDriver();
-        driver.navigate().to("https://yanirta.github.io/hcore/responsive_page.html");
+        driver.navigate().to("https://yanirta.github.io/qualitalks/responsive_page.html");
         setViewportSize(driver, 1237, 703);
 
         driver.quit();

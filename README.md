@@ -1,2 +1,2 @@
-# hcore
-https://hcoretesting.com supplementals
+# qualitalks
+https://qualitalks.com supplementals
